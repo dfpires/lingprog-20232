@@ -6,11 +6,11 @@
     background-color: aqua;
 }
 
-#areaPeso, #areaAltura, #areaBotao, h1 {
+#areaPeso, #areaAltura, #areaBotao, h1, #areaResposta {
     padding-left: 30px;
 }
 
-#areaPeso, #areaAltura, #areaBotao {
-    border: 1px solid #000; /* red green blue - RGB */
+#areaPeso, #areaAltura, #areaBotao, #areaResposta {
+    /* border: 1px solid #000; /* red green blue - RGB */
     margin-bottom: 40px;
 }
