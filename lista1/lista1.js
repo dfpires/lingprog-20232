@@ -14,3 +14,30 @@ function exe2(){
 function exe3(){
 
 }
+function exe9(){
+    // recupera os dados informados pelo usuário
+    let baseMenor = Number(document.getElementById("baseMenor").value)
+    let baseMaior = Number(document.getElementById("baseMaior").value)
+    let altura = Number(document.getElementById("altura").value)
+    // calcula área do trapézio
+    let area = ((baseMenor + baseMaior) * altura) / 2
+    // mostra ao usuário no HTML
+    document.getElementById("area").innerHTML = `A área é ${area}`
+}
+
+function exe20(){
+    // cosseno(angulo) = cateto adjacente / hipotenusa
+    // hipotenusa = cateto adjacente / cosseno(angulo)
+    // recupera os dados do usuário
+    let cAdjacente = Number(document.getElementById("cAdjacente").value)
+    let angulo = Number(document.getElementById("angulo").value)
+
+    // calcular a hipotenusa
+    let radiano = angulo * (Math.PI / 180)
+    let hipotenusa = cAdjacente / Math.cos(radiano)
+
+    // mostra ao usuário
+    document.getElementById("hipotenusa").innerHTML = 
+        `A medida da escada é ${hipotenusa}`
+
+}
