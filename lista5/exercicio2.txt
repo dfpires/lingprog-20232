@@ -1,0 +1,11 @@
+Faça um programa em JavaScript que solicite ao usuário dados de 10 bikes. Cada bike deve conter informações como marca, modelo, quadro, aro, ano e preço. Após a entrada de dados, o programa deve calcular e exibir ao usuário:
+
+1) a média de preço das bikes
+
+2) qual a bike é mais antiga, deve-se considerar empates
+
+3) quais as bikes são do marca Caloi
+
+4) quantas bikes possuem aro 29
+
+5) qual bike possui maior quadro, pode-se desconsiderar empates
