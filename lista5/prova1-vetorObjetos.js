@@ -43,21 +43,25 @@ function prova(){
         }
     }
     let maiorEstoque = 0
+    let posicaoMaiorEstoque = 0
     let menorEstoque = Infinity
+    let posicaoMenorEstoque = 0
     let achou = false
-    for(let i=1;i<3;i++){
-        if (classificacao[i] == "NOTEBOOK"){
+    for(let i=0;i<3;i++){
+        if (vetor[i].classificacao == "NOTEBOOK"){
             achou = true
-            if (maiorEstoque > estoque[i]){
-                maiorEstoque = estoque[i]
+            if (vetor[i].estoque > maiorEstoque){
+                maiorEstoque = vetor[i].estoque
+                posicaoMaiorEstoque = i
             }
-            if (menorEstoque < estoque[i]){
-                menorEstoque = estoque[i]
+            if (vetor[i].estoque < menorEstoque){
+                menorEstoque = vetor[i].estoque
+                posicaoMenorEstoque = i
             }
         }
     }
     if (achou){
-        console.log(nomes[estoque.indexOf(menorEstoque)])
-        console.log(nomes[estoque.indexOf(maiorEstoque)])
+        console.log(vetor[posicaoMaiorEstoque].nome)
+        console.log(vetor[posicaoMenorEstoque].nome)
     }
 }
