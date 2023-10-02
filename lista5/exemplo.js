@@ -19,4 +19,6 @@ function exemplo(){
     objeto2.nome =  prompt("Informe o nome"),
     objeto2.estoque = Number(prompt("Informe o estoque")),
     objeto2.classificacao = prompt("Informe a classificao")
+
+    
 }
