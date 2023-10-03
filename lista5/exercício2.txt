@@ -1,0 +1,7 @@
+Faça um programa em JS que guarde em um vetor dados de 5  farmacias: código, Nome e endereço 
+Não é possível crias duas farmácias com o mesmo código
+
+Em seguida, guarde em um vetor dados de 10 remédios: código da farmácia, nome do remédio, qtde em estoque e preço
+Não é possível cadastrar um remédio de uma farmácia que não exista
+
+Ao final, efetive a compra de 5 remédios, e atualize o estoque. Considere que a farmácia ou o remédio podem não existir, e cancela a compra
