@@ -40,4 +40,20 @@ function bike(){
         }
     }
     console.log(caloi)
+    // qts bikes aro 29
+    let aro29 = 0
+    for(let i=0;i<vetor.length;i++){
+        if (vetor[i].aro == 29){
+            aro29++
+        }
+    }
+    console.log(`Quantidade de bikes aro 29 ${aro29}`)
+    // qual bike possui maior quadro, desconsidere empates
+    let maiorQuadro = vetor[0]
+    for(let i=1;i<vetor.length;i++){
+        if (vetor[i].quadro > maiorQuadro.quadro){
+            maiorQuadro = vetor[i]
+        }
+    }
+    console.log(maiorQuadro)
 }
