@@ -1,3 +1,4 @@
+// modularize o programa de bike sempre passando o vetor como parâmetro
 function bike(){
     let vetor = []
     for(let i =0;i<3;i++){
